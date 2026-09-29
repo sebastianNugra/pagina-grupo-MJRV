@@ -1,4 +1,4 @@
-# Página del Equipo N
+# Página del Equipo MJRV
 
 Mini web estática donde cada integrante presenta su propia sección. Es el proyecto de la práctica de **Git, GitHub, Tailscale y Gitea**: lo construimos primero en GitHub y luego en un servidor Gitea propio. El foco está en aprender Git, no en el código.
 
