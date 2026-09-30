@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andres Buestan</title>
+  <style>
+    :root {
+      --acento: #2f6f4f;
+      --borde: #e3e3e3;
+      --texto: #1f1f1f;
+      --suave: #6b6b6b;
+    }
+
+    
+    * {
+    box-sizing: border-box;}
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: #f6f6f4;
+      color: var(--texto);
+    }
+
+    .tarjeta {
+      width: 100%;
+      max-width: 22rem;
+      background: #fff;
+      border: 1px solid var(--borde);
+      border-radius: 12px;
+      padding: 2rem 1.75rem;
+      text-align: center;
+    }
+
+    .avatar {
+      font-size: 3.5rem;
+      line-height: 1;
+      margin: 0 0 1rem;
+    }
+
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+
+    .rol {
+      margin: 0 0 1.5rem;
+      font-size: 0.85rem;
+      color: var(--acento);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    dl {
+      margin: 0;
+      text-align: left;
+      border-top: 1px solid var(--borde);
+      padding-top: 1.25rem;
+    }
+
+    .dato {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.4rem 0;
+      font-size: 0.95rem;
+    }
+
+    dt {
+      color: var(--suave);
+    }
+
+    dd {
+      margin: 0;
+      text-align: right;
+    }
+
+    .volver {
+      display: inline-block;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--suave);
+      text-decoration: none;
+    }
+
+    .volver:hover {
+      color: var(--acento);
+    }
+  </style>
+</head>
+<body>
+  <article class="tarjeta">
+    <p class="avatar" role="img" aria-label="Emoji de fútbol">👻</p>
+
+    <h1>Andres Buestan</h1>
+    <p class="rol">Documentador</p>
+
+    <dl>
+      <div class="dato">
+        <dt>Carrera</dt>
+        <dd>Ingeniería en Software - 5to A</dd>
+      </div>
+      <div class="dato">
+        <dt>Hobby</dt>
+        <dd>drive</dd>
+      </div>
+    </dl>
+
+    <a class="volver" href="index.html">&larr; Volver al equipo</a>
+  </article>
+</body>
+</html>
